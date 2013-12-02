@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "lita-imgflip"
-  spec.version       = "1.0.0"
+  spec.version       = "1.0.1"
   spec.authors       = ["Henrik Sjökvist"]
   spec.email         = ["henrik.sjokvist@gmail.com"]
   spec.description   = %q{A Lita handler for generating meme images using imgflip.com.}
