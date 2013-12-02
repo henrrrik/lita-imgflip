@@ -52,6 +52,12 @@ end
 * `WHAT IF I TOLD YOU <text>` - Generates Morpheus
 * `<text> BETTER DRINK MY OWN PISS` - Generates Bear Grylls
 * `khanify <text>` - Generates Captain Kirk
+* `<text> THAT WOULD BE GREAT` - generates Bill Lumbergh
+* `<text> AIN'T NOBODY GOT TIME FOR THAT` - generates Sweet Brown
+* `<text> I TOO LIKE TO LIVE DANGEROUSLY` - generates I Too Like to Live Dangerously
+* `<text> SHUT UP AND TAKE MY MONEY` - generates Shut Up and Take My Money Fry
+* `YOU KNOW WHAT REALLY GRINDS MY GEARS? <text>` - "generates Peter Griffin News
+
 
 ## License
 

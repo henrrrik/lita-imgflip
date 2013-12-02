@@ -30,6 +30,13 @@ module Lita
       route %r{(WHAT IF I TOLD YOU) (.*)}i,                        :meme_what_if_i,        help: { "WHAT IF I TOLD YOU.." => "generates WHAT IF I TOLD YOU.. meme" }     
       route %r{(.*) (BETTER DRINK MY OWN PISS)}i,                  :meme_better_drink,     help: { "..BETTER DRINK MY OWN PISS" => "generates ..BETTER DRINK MY OWN PISS meme" }
       route %r{^khanify (.*)}i,                                    :meme_khanify,          help: { "khanify ..." => "generates khan meme" }
+      route %r{(.*,) (.* EVERYWHERE)}i,                          :meme_everywhere,       help: { ".., .. EVERYWHERE" => "generates X, X everywhere meme" }
+      route %r{(.*) (THAT WOULD BE GREAT)}i,                       :meme_would_be_great,   help: { ".. THAT WOULD BE GREAT" => "generates Bill Lumbergh meme" }
+      route %r{(.*) (AIN'?T NOBODY GOT TIME FOR THAT)}i,           :meme_time_for_that,    help: { ".. AIN'T NOBODY GOT TIME FOR THAT" => "generates Sweet Brown meme." }
+      route %r{(.*) (I TOO LIKE TO LIVE DANGEROUSLY)}i,            :meme_live_dangerously, help: { ".. I TOO LIKE TO LIVE DANGEROUSLY" => "generates I Too Like to Live Dangerously meme." }
+      route %r{(.*) (SHUT UP AND TAKE MY MONEY)}i,                 :meme_take_my_money,    help: { ".. SHUT UP AND TAKE MY MONEY" => "generates Shut Up and Take My Money Fry meme." }
+      route %r{(YOU KNOW WHAT REALLY GRINDS MY GEARS[?,]?) (.*)}i, :meme_grinds_my_gears,  help: { "YOU KNOW WHAT REALLY GRINDS MY GEARS? .." => "generates Peter Griffin News meme." }
+
 
 
       def meme_y_u_no(response)
@@ -112,8 +119,31 @@ module Lita
         generate_meme(response, 2743696, text0: "", text1: khanify(response.matches[0][0]))
       end
 
+      def meme_everywhere(response)
+        generate_meme(response, 347390)
+      end
 
-      private 
+      def meme_would_be_great(response)
+        generate_meme(response, 563423)
+      end
+
+      def meme_time_for_that(response)
+        generate_meme(response, 442575)
+      end
+
+      def meme_live_dangerously(response)
+        generate_meme(response, 8680117)
+      end
+
+      def meme_take_my_money(response)
+        generate_meme(response, 176908)
+      end
+
+      def meme_grinds_my_gears(response)
+        generate_meme(response, 356615)
+      end
+
+      private
 
       def khanify(phrase)
         shouty_phrase = phrase.upcase
