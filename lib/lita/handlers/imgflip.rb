@@ -143,6 +143,10 @@ module Lita
         generate_meme(response, 356615)
       end
 
+      def meme_orly(response)
+        generate_meme(response, 12361203)
+      end
+
       private
 
       def khanify(phrase)
