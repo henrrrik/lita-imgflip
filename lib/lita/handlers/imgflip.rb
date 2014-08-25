@@ -30,7 +30,7 @@ module Lita
       route %r{(WHAT IF I TOLD YOU) (.*)}i,                        :meme_what_if_i,        help: { "WHAT IF I TOLD YOU.." => "generates WHAT IF I TOLD YOU.. meme" }     
       route %r{(.*) (BETTER DRINK MY OWN PISS)}i,                  :meme_better_drink,     help: { "..BETTER DRINK MY OWN PISS" => "generates ..BETTER DRINK MY OWN PISS meme" }
       route %r{^khanify (.*)}i,                                    :meme_khanify,          help: { "khanify ..." => "generates khan meme" }
-      route %r{(.*,) (.* EVERYWHERE)}i,                          :meme_everywhere,       help: { ".., .. EVERYWHERE" => "generates X, X everywhere meme" }
+      route %r{(.*,) (.* EVERYWHERE)}i,                            :meme_everywhere,       help: { ".., .. EVERYWHERE" => "generates X, X everywhere meme" }
       route %r{(.*) (THAT WOULD BE GREAT)}i,                       :meme_would_be_great,   help: { ".. THAT WOULD BE GREAT" => "generates Bill Lumbergh meme" }
       route %r{(.*) (AIN'?T NOBODY GOT TIME FOR THAT)}i,           :meme_time_for_that,    help: { ".. AIN'T NOBODY GOT TIME FOR THAT" => "generates Sweet Brown meme." }
       route %r{(.*) (I TOO LIKE TO LIVE DANGEROUSLY)}i,            :meme_live_dangerously, help: { ".. I TOO LIKE TO LIVE DANGEROUSLY" => "generates I Too Like to Live Dangerously meme." }
@@ -88,7 +88,7 @@ module Lita
       end
 
       def meme_grumpy_cat(response)
-        generate_meme(response, 405658)
+        generate_meme(response, 405658, text0:response.matches[0][1], text1:response.matches[0][2])
       end
 
       def meme_looks_like(response)
