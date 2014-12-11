@@ -1,6 +1,7 @@
 # lita-imgflip
 
-[![Build Status](https://travis-ci.org/henrrrik/lita-imgflip.png)](https://travis-ci.org/henrrrik/lita-imgflip)
+[![Build
+Status](https://travis-ci.org/henrrrik/lita-imgflip.svg?branch=master)](https://travis-ci.org/henrrrik/lita-imgflip)
 [![Code Climate](https://codeclimate.com/github/henrrrik/lita-imgflip.png)](https://codeclimate.com/github/henrrrik/lita-imgflip)
 [![Coverage Status](https://coveralls.io/repos/henrrrik/lita-imgflip/badge.png)](https://coveralls.io/r/henrrrik/lita-imgflip)
 
