@@ -58,6 +58,7 @@ end
 * `<text> I TOO LIKE TO LIVE DANGEROUSLY` - generates I Too Like to Live Dangerously
 * `<text> SHUT UP AND TAKE MY MONEY` - generates Shut Up and Take My Money Fry
 * `YOU KNOW WHAT REALLY GRINDS MY GEARS? <text>` - "generates Peter Griffin News
+* `"<text> CHALLENGE ACCEPTED"` - generates Challenge Accepted guy
 
 
 ## License
