@@ -145,6 +145,10 @@ module Lita
         generate_meme(response, 12361203)
       end
 
+      def meme_challenge_accepted(response)
+        generate_meme(response, 24792)
+      end
+
       private
 
       def khanify(phrase)
