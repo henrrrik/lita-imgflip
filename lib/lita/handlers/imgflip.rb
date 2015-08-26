@@ -34,6 +34,7 @@ module Lita
       route %r{(.*) (I TOO LIKE TO LIVE DANGEROUSLY)}i,            :meme_live_dangerously, help: { ".. I TOO LIKE TO LIVE DANGEROUSLY" => "generates I Too Like to Live Dangerously meme." }
       route %r{(.*) (SHUT UP AND TAKE MY MONEY)}i,                 :meme_take_my_money,    help: { ".. SHUT UP AND TAKE MY MONEY" => "generates Shut Up and Take My Money Fry meme." }
       route %r{(YOU KNOW WHAT REALLY GRINDS MY GEARS[?,]?) (.*)}i, :meme_grinds_my_gears,  help: { "YOU KNOW WHAT REALLY GRINDS MY GEARS? .." => "generates Peter Griffin News meme." }
+      route %r{(.*) (CHALLENGE ACCEPTED)}i,                        :meme_challenge_accepted, help: { ".. CHALLENGE ACCEPTED" => "generated Challenge Accepted face meme." }
 
 
 
