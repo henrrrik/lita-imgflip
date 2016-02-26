@@ -11,8 +11,8 @@ module Lita
       route %r{(Y U NO) (.+)}i,                                    :meme_y_u_no,           help: { "Y U NO..." => "generates Y U NO meme"}
       route %r{(I DON'?T ALWAYS .*) (BUT WHEN I DO,? .*)}i,        :meme_i_dont_always,    help: { "I DON'T ALWAYS .. BUT WHEN I DO, .." => "generates The Most Interesting Man in the World meme"}
       route %r{(.*)(O\s?RLY\??.*)}i,                               :meme_orly,             help: { "..O RLY.." => "generates O RLY meme" }
-      route %r{(.*)(SUCCESS|NAILED IT.*)},                         :meme_success,          help: { "..SUCCESS.." => "(case sensitive) generates SUCCESS meme", "..NAILED IT.." => "generates NAILED IT meme" }
-      route %r{(.*) (ALL the .*)},                                 :meme_all_the,          help: { "ALL the.." => "(case sensitive) generates ALL the <things> meme" }
+      route %r{(.*)(SUCCESS|NAILED IT.*)}i,                        :meme_success,          help: { "..SUCCESS.." => "(case sensitive) generates SUCCESS meme", "..NAILED IT.." => "generates NAILED IT meme" }
+      route %r{(.*) (ALL the .*)}i,                                :meme_all_the,          help: { "ALL the.." => "(case sensitive) generates ALL the <things> meme" }
       route %r{(.*) (\w+\sTOO DAMN .*)}i,                          :meme_too_damn,         help: { "TOO DAMN.." => "generates TOO DAMN meme" }
       route %r{(GOOD NEWS EVERYONE[,.!]?) (.*)}i,                  :meme_good_news,        help: { "GOOD NEWS EVERYONE.." => "generates GOOD NEWS EVERYONE meme" }
       route %r{(NOT SURE IF .*) (OR .*)}i,                         :meme_not_sure_if,      help: { "NOT SURE IF.. OR.." => "generates NOT SURE IF .. OR meme" }
