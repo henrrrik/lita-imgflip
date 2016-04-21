@@ -59,6 +59,7 @@ end
 * `<text> SHUT UP AND TAKE MY MONEY` - generates Shut Up and Take My Money Fry
 * `YOU KNOW WHAT REALLY GRINDS MY GEARS? <text>` - "generates Peter Griffin News
 * `"<text> CHALLENGE ACCEPTED"` - generates Challenge Accepted guy
+* `"YOUR <text> IS BAD"` - generates Zoidberg Your x is bad and you should feeld bad
 
 
 ## License

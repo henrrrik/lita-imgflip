@@ -35,6 +35,7 @@ module Lita
       route %r{(.*) (SHUT UP AND TAKE MY MONEY)}i,                 :meme_take_my_money,      help: { ".. SHUT UP AND TAKE MY MONEY" => "generates Shut Up and Take My Money Fry meme." }
       route %r{(YOU KNOW WHAT REALLY GRINDS MY GEARS[?,]?) (.*)}i, :meme_grinds_my_gears,    help: { "YOU KNOW WHAT REALLY GRINDS MY GEARS? .." => "generates Peter Griffin News meme." }
       route %r{(.*) (CHALLENGE ACCEPTED)}i,                        :meme_challenge_accepted, help: { ".. CHALLENGE ACCEPTED" => "generated Challenge Accepted face meme." }
+      route %r{(YOUR .*) (IS BAD)}i,                               :meme_zoidberg_feel_bad,  help: { "YOUR.. IS BAD AND YOU SHOULD FEEL BAD" => "generates Zoidberg Your .. is bad and you should feel bad meme" }
 
       def meme_y_u_no(response)
         generate_meme(response, 61527)
@@ -146,6 +147,10 @@ module Lita
 
       def meme_challenge_accepted(response)
         generate_meme(response, 24792)
+      end
+
+      def meme_zoidberg_feel_bad(response)
+        generate_meme(response, 35747)
       end
 
       private
