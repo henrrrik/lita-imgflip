@@ -4,7 +4,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Henrik Sjökvist"]
   spec.email         = ["henrik.sjokvist@gmail.com"]
   spec.description   = %q{A Lita handler for generating meme images using imgflip.com.}
-  spec.summary       = %q{A Lita handler for generating meme images using imgflip.com.}
+  spec.summary       = spec.description
   spec.homepage      = "https://github.com/henrrrik/lita-imgflip"
   spec.license       = "MIT"
 
@@ -16,8 +16,8 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "lita", "~> 4.0"
 
   spec.add_development_dependency "bundler", "~> 1.11"
-  spec.add_development_dependency "rake"
-  spec.add_development_dependency "rspec", ">= 3.4.0"
-  spec.add_development_dependency "simplecov"
-  spec.add_development_dependency "coveralls"
+  spec.add_development_dependency "rake", "~> 11.1", ">= 11.1.2"
+  spec.add_development_dependency "rspec", "~> 3.4", ">= 3.4.0"
+  spec.add_development_dependency "simplecov", "~> 0.11", ">= 0.11.2"
+  spec.add_development_dependency "coveralls", "~> 0.8", ">= 0.8.13"
 end
