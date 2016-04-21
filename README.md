@@ -34,7 +34,7 @@ end
 
 
 * `Y U NO <text>` - Generates the Y U NO GUY with the bottom caption of <text>
-* `I don't always <something> but when i do <text>` - Generates The Most Interesting man in the World 
+* `I don't always <something> but when i do <text>` - Generates The Most Interesting man in the World
 * `<text> (SUCCESS|NAILED IT)` - Generates success kid with the top caption of <text>
 * `<text> ALL the <things>` - Generates ALL THE THINGS
 * `<text> TOO DAMN <high>` - Generates THE RENT IS TOO DAMN HIGH guy
@@ -59,7 +59,7 @@ end
 * `<text> SHUT UP AND TAKE MY MONEY` - generates Shut Up and Take My Money Fry
 * `YOU KNOW WHAT REALLY GRINDS MY GEARS? <text>` - "generates Peter Griffin News
 * `"<text> CHALLENGE ACCEPTED"` - generates Challenge Accepted guy
-* `"YOUR <text> IS BAD"` - generates Zoidberg Your x is bad and you should feeld bad
+* `"YOUR <text> IS BAD"` - generates Zoidberg Your x is bad and you should feel bad
 
 
 ## License
