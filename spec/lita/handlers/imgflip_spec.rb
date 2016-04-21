@@ -9,6 +9,7 @@ describe Lita::Handlers::Imgflip, lita_handler: true do
   it { is_expected.to route_command("blah i too like to live dangerously").to(:meme_live_dangerously) }
   it { is_expected.to route_command("blah shut up and take my money!").to(:meme_take_my_money) }
   it { is_expected.to route_command("you know what really grinds my gears? blah").to(:meme_grinds_my_gears) }
+  it { is_expected.to route_command("your blah is bad").to(:meme_zoidberg_feel_bad) }
 
   it "sets the username and password to nil by default" do
     expect(Lita.config.handlers.imgflip.username).to be_nil
